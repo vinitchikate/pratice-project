@@ -5,7 +5,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const route = require('./routes/route.js');//Routing is one of the most important parts of any Web framework since it defines how our application should handle all the HTTP requests by the client. 
-const { default: mongoose } = require('mongoose');//require for use functionalities and ongoose is usually used for connecting our Node.js to MongoDB.
+const { default: mongoose } = require('mongoose');//require for use functionalities and mongoose is usually used for connecting our Node.js to MongoDB.
 const app = express();//Express ki functionalities ko use krne k liye
 
 app.use(bodyParser.json());
